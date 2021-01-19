@@ -3,7 +3,7 @@ package main.java;
 import main.java.model.CharacterStat;
 import main.java.view.MainGUI;
 
-public class Runner {
+public class Main {
     public static void main(String[] args){
         MainGUI mainGUI = new MainGUI();
         mainGUI.displayGUI();

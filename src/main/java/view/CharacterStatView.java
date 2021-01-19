@@ -4,7 +4,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-import main.java.Runner;
+import main.java.Main;
 import main.java.model.CharacterStat;
 
 import java.awt.GridBagLayout;
@@ -13,7 +13,7 @@ import java.awt.GridBagConstraints;
 public class CharacterStatView extends JPanel {
 
     public CharacterStatView() {
-        CharacterStat[] characterStat = Runner.makeStatArrays();
+        CharacterStat[] characterStat = Main.makeStatArrays();
         setLayout(new GridBagLayout());
         GridBagConstraints c = new GridBagConstraints();
         c.weightx = 0.5;
