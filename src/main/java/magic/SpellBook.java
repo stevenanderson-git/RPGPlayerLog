@@ -40,6 +40,42 @@ public class SpellBook {
         return cantrips;
     }
 
+    public List<Spell> getLevel1() {
+        return level1;
+    }
+
+    public List<Spell> getLevel2() {
+        return level2;
+    }
+
+    public List<Spell> getLevel3() {
+        return level3;
+    }
+
+    public List<Spell> getLevel4() {
+        return level4;
+    }
+
+    public List<Spell> getLevel5() {
+        return level5;
+    }
+
+    public List<Spell> getLevel6() {
+        return level6;
+    }
+
+    public List<Spell> getLevel7() {
+        return level7;
+    }
+
+    public List<Spell> getLevel8() {
+        return level8;
+    }
+
+    public List<Spell> getLevel9() {
+        return level9;
+    }
+
     /**
      * 
      * @param spellList
